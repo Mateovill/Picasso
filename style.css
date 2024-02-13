@@ -1,0 +1,122 @@
+/*.grid_container{
+    display: flex;
+  
+}
+.grid_container > div {
+ 
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 45px;
+    font-size: 25px;
+}*/
+
+.container {
+background-color: aqua;
+margin: 10px;
+font-size: 25px;
+position: relative;
+}
+/* @media only screen and (max-width: 620px) {
+    For mobile phones: 
+    .menu, .main, .right {
+         width: 100%;
+    }
+
+fa-sharp fa-thin fa-people {
+    color: black;
+}
+*/
+.css_container{
+    display: grid;
+    grid-template-areas: 'header_block header_block header_block header_block header_block' 'menu_block main_block main_block main_block main block right_block right_block';
+    gap: 5px;
+    background-color: blue;
+    padding: 2px; 
+}
+.container2{
+    display: flex;
+    background-color:aqua;
+    flex: 1;
+}
+.container2 > div {
+    border: 10px solid white;
+    padding: 10px;
+    flex: 1;
+}
+.container3{
+background-color: lightgreen;
+margin: 10px;
+padding: 5px;
+font-size: 25px;
+}
+@media(min-width: 1680px)  {
+    .container2   {
+    
+        }
+    }
+#people1 {
+    color:blue;
+    font-size: 5pc;
+    text-align: left;
+}
+#people2 {
+    color:gray;
+    font-size: 5pc;
+}
+#mountain1 {
+    color: green;
+    font-size: 25pc;
+  
+
+}
+#circle1 {
+    color: orange;
+    font-size: 12pc;
+    position: absolute;
+    z-index: 3;
+}
+ #circle2 {
+        color: pink;
+        font-size: 6pc;
+        position: absolute;
+        z-index: 4;
+ }
+#mountain2 {
+    color: yellow;
+    font-size: 30pc;
+    position: absolute;
+}
+#people3 {
+    color:gray;
+    font-size: 5pc;}
+ #circle6 {
+        color: pink;
+        font-size: 10pc;
+        position: absolute;
+ }
+
+ #circle7 {
+    color: pink;
+    font-size: 15pc;
+    position: absolute;
+    z-index: 1;
+}
+#circle8 {
+    color: orange;
+    font-size: 7pc;
+    position: absolute;
+    z-index: 2;
+}
+#circle3 {
+    color: pink;
+    font-size: 8pc;
+   
+}
+#circlea {
+    color: orange;
+    font-size: 8em; 
+}
+.button1:hover {
+color:crimson;
+font-size: larger;
+}
